@@ -1,4 +1,6 @@
-# Lecture Notes on Causal Inference
+# Blog
+
+## Lecture Notes on Causal Inference
 
 * [Lecture 1: Introduction](_posts/2021-07-10-causal1.md)
 * [Lecture 2: Potential Outcome](_posts/2021-07-11-causal2.md)
