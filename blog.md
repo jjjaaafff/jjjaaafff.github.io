@@ -15,3 +15,7 @@
 * [Lecture 11: Causal Discovery from Interventions](_posts/2021-07-20-causal11.md)
 * [Lecture 12: Transfer Learning and Transportability](_posts/2021-07-21-causal12.md)
 * [Lecture 13: Counterfactuals and Mediation](_posts/2021-07-21-causal13.md)
+
+## Book Notes on Machine Learning
+
+* [Linear Methods for Regression](_posts/2021-07-23-ml2.md)
