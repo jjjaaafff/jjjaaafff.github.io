@@ -19,3 +19,4 @@
 ## Book Notes on Machine Learning
 
 * [Linear Methods for Regression](_posts/2021-07-23-ml2.md)
+* [Linear Methods for Classificationn](_posts/2021-07-25-ml3.md)
