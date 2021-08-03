@@ -19,4 +19,7 @@
 ## Book Notes on Machine Learning
 
 * [Linear Methods for Regression](_posts/2021-07-23-ml2.md)
-* [Linear Methods for Classificationn](_posts/2021-07-25-ml3.md)
+* [Linear Methods for Classification](_posts/2021-07-25-ml3.md)
+* [Kernel Methods](_posts/2021-07-27-ml4.md)
+* [Support Vector Machine](_posts/2021-07-29-ml5.md)
+* [test](file/dltheory.pdf)
