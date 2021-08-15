@@ -22,4 +22,6 @@
 * [Linear Methods for Classification](_posts/2021-07-25-ml3.md)
 * [Kernel Methods](_posts/2021-07-27-ml4.md)
 * [Support Vector Machine](_posts/2021-07-29-ml5.md)
-* [test](file/dltheory.pdf)
+* [Mixture Models and EM](_posts/2021-08-01-ml6.md)
+
+
