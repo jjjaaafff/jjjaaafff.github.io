@@ -23,5 +23,7 @@
 * [Kernel Methods](_posts/2021-07-27-ml4.md)
 * [Support Vector Machine](_posts/2021-07-29-ml5.md)
 * [Mixture Models and EM](_posts/2021-08-01-ml6.md)
+* [Neural Networks](_posts/2021-08-03-ml7.md)
+* [Sampling Methods](_posts/2021-08-10-ml8.md)
 
 
