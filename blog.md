@@ -2,6 +2,9 @@
 
 ## Lecture Notes on Causal Inference
 
+Based on lecture Introduction to Causal Inference (Brady Neal)  
+Course Website: [https://www.bradyneal.com/causal-inference-course](https://www.bradyneal.com/causal-inference-course)
+
 * [Lecture 1: Introduction](_posts/2021-07-10-causal1.md)
 * [Lecture 2: Potential Outcome](_posts/2021-07-11-causal2.md)
 * [Lecture 3: Flow of Association and Causation in Graphs](_posts/2021-07-12-causal3.md)
@@ -16,14 +19,17 @@
 * [Lecture 12: Transfer Learning and Transportability](_posts/2021-07-21-causal12.md)
 * [Lecture 13: Counterfactuals and Mediation](_posts/2021-07-21-causal13.md)
 
-## Book Notes on Machine Learning
+## Book Notes on PRML
 
-* [Linear Methods for Regression](_posts/2021-07-23-ml2.md)
+Based on book Pattern Recognition and Machine Learning (Bishop)
+
+* [Linear Methods for Regression](_posts/2021-07-22-ml2.md)
 * [Linear Methods for Classification](_posts/2021-07-25-ml3.md)
-* [Kernel Methods](_posts/2021-07-27-ml4.md)
-* [Support Vector Machine](_posts/2021-07-29-ml5.md)
-* [Mixture Models and EM](_posts/2021-08-01-ml6.md)
-* [Neural Networks](_posts/2021-08-03-ml7.md)
-* [Sampling Methods](_posts/2021-08-10-ml8.md)
+* [Kernel Methods](_posts/2021-07-28-ml4.md)
+* [Support Vector Machine](_posts/2021-07-31-ml5.md)
+* [Mixture Models and EM](_posts/2021-08-05-ml6.md)
+* [Neural Networks](_posts/2021-08-09-ml7.md)
+* [Sampling Methods](_posts/2021-08-15-ml8.md)
+* [Principal Component Analysis](_posts/2021-08-19-ml9.md)
 
 
