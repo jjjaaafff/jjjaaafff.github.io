@@ -31,5 +31,6 @@ Based on book Pattern Recognition and Machine Learning (Bishop)
 * [Neural Networks](_posts/2021-08-09-ml7.md)
 * [Sampling Methods](_posts/2021-08-15-ml8.md)
 * [Principal Component Analysis](_posts/2021-08-19-ml9.md)
+* [Sequential Data](_posts/2021-08-22-ml10.md)
 
 
