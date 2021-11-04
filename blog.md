@@ -35,3 +35,5 @@ Based on book Pattern Recognition and Machine Learning (Bishop)
 * [Combining Models](_posts/2021-08-25-ml11.md)
 
 
+## [Anomaly Detection Paper Summary](_posts/2021-11-01-ad.md)
+
