@@ -37,3 +37,8 @@ Based on book Pattern Recognition and Machine Learning (Bishop)
 
 ## [Anomaly Detection Paper Summary](_posts/2021-11-01-ad.md)
 
+## Lecture Notes on Database
+
+Based on SE305 SJTU
+
+* [Lecture 1: Relational Data Model](_posts/2021-11-23-db1.md)
