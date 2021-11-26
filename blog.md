@@ -43,3 +43,4 @@ Based on SE305 SJTU
 
 * [Lecture 1: Relational Data Model](_posts/2021-11-23-db1.md)
 * [Lecture 2: Functional Dependency](_posts/2021-11-24-db2.md)
+* [Lecture 3: Normal Form](_posts/2021-11-25-db3.md)
