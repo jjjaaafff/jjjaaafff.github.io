@@ -47,3 +47,4 @@ Based on SE305 SJTU
 * [Lecture 4: Entity/Relationship Model](_posts/2021-11-29-db4.md)
 * [Lecture 5: Object Description Language](_posts/2021-12-02-db5.md)
 * [Lecture 6: xRA & Datalog](_posts/2021-12-03-db6.md)
+* [Lecture 7: SQL--Query](_posts/2021-12-05-db7.md)
