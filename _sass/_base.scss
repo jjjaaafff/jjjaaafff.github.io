@@ -4,20 +4,26 @@
 
 // Typography
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-em,
-div,
-li,
-span,
-strong {
+p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  font-family: 'Avenir Next', sans-serif;
 }
+
+/* Make the text in <p> elements a bit thicker */
+p {
+  font-weight: 430; /* Adjust this value according to your preference */
+}
+
+/* Make the text in <strong> elements a bit thicker*/
+strong {
+  font-weight: 550; /* Adjust this value according to your preference */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; /* Adjust this value according to your preference */
+}
+
+
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -50,9 +56,6 @@ table.table a {
 
 .table-dark {
   background-color: transparent;
-  &.table-bordered{
-    border: 1px solid var(--global-divider-color) !important;
-  }
 }
 
 figure,
@@ -62,53 +65,13 @@ img {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 5px solid var(--global-theme-color);
-  margin: 1.5em 0;
-  padding: 1em;
-  font-size: 1.2rem;
+  border-left: 2px solid var(--global-theme-color);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 1rem;
 
   p {
     margin-bottom: 0;
-  }
-
-  /* Tips, warnings, and dangers blockquotes */
-  &.block-tip {
-    border-color: var(--global-tip-block);
-    background-color: var(--global-tip-block-bg);
-
-    p {
-      color: var(--global-tip-block-text);
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--global-tip-block-title);
-    }
-  }
-
-  &.block-warning {
-    border-color: var(--global-warning-block);
-    background-color: var(--global-warning-block-bg);
-
-    p {
-      color: var(--global-warning-block-text);
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--global-warning-block-title);
-    }
-  }
-
-  &.block-danger {
-    border-color: var(--global-danger-block);
-    background-color: var(--global-danger-block-bg);
-
-    p {
-      color: var(--global-danger-block-text);
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--global-danger-block-title);
-    }
   }
 }
 
@@ -164,7 +127,7 @@ blockquote {
 .profile {
   width: 100%;
 
-  .more-info {
+  .address {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
@@ -279,11 +242,16 @@ blockquote {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
+    
 
     a {
+      padding: 0.1rem 0.2rem; /* Padding for individual icons */
+      transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+
       i::before {
         color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+        transition-property: all 0.3s ease-in-out;
+        transform: scale(1.4); /* Slight scaling on hover */
       }
 
       &:hover {
@@ -370,36 +338,6 @@ blockquote {
 
   .contact-note {
     font-size: 0.8rem;
-  }
-}
-
-.wechat-modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.8);
-}
-
-.wechat-modal > img {
-  display: block;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  width: 33%;
-  max-width: 400px;
-  transform: translate(-50%, -50%);
-}
-
-@media only screen and (max-width: 400px){
-  .wechat-modal > img {
-    width: 100%;
   }
 }
 
@@ -697,8 +635,12 @@ footer.sticky-bottom {
       }
 
       .author {
+        font-size: 0.85rem;
+        font-weight: 500;
+
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px dashed;
+          color: var(--global-text-color);
 
           &:hover {
             border-bottom-style: solid;
@@ -707,7 +649,7 @@ footer.sticky-bottom {
         }
 
         >em {
-          border-bottom: 1px solid;
+          border-bottom: 1px solid var(--global-theme-color);
           font-style: normal;
         }
 
@@ -723,19 +665,49 @@ footer.sticky-bottom {
         }
       }
 
+      .periodical {
+        font-size: 0.85rem;
+        font-weight: 450;
+      }
+
       .links {
         a.btn {
+          /* Text and border colors */
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
 
+          /* Spacing and layout */
+          padding-left: 0.6rem;
+          padding-right: 0.6rem;
+          padding-top: 0.15rem;
+          padding-bottom: 0.15rem;
+          margin-left: 0;
+          display: inline-block;  /* Makes it easier to set width/height, if needed */
+
+          /* Typography */
+          font-size: 0.64rem;  /* Depending on your design, adjust accordingly */
+          font-weight: 500;  /* Makes text a bit bolder but not too heavy */
+          text-align: center;
+          text-decoration: none;  /* Remove underline */
+
+          /* Rounded corners for a softer, modern look */
+          border-radius: 0.25rem;
+
+          /* Transitions for smoother hover effects */
+          transition: color 0.3s ease, border-color 0.3s ease;
+
+          /* Hover State */
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            text-decoration: none;  /* Remove underline */
+            cursor: pointer;  /* Indicate interactivity */
+          }
+
+          /* Focus State for better accessibility */
+          &:focus {
+            outline: 2px solid var(--global-theme-color);
+            outline-offset: 2px;
           }
         }
       }
@@ -855,6 +827,17 @@ html.transition *:after {
 
       &:hover {
         color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .post-content {
+    blockquote {
+      border-left: 5px solid var(--global-theme-color);
+      padding: 8px;
+
+      p {
+        margin-bottom: 0 !important;
       }
     }
   }
@@ -1024,6 +1007,48 @@ nav[data-toggle="toc"] {
     visibility: hidden;
     height: 0;
     top: 0;
+  }
+}
+
+/* Tips, warnings, and dangers blockquotes */
+.post .post-content blockquote {
+  &.block-tip {
+    border-color: var(--global-tip-block);
+    background-color: var(--global-tip-block-bg);
+
+    p {
+      color: var(--global-tip-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-tip-block-title);
+    }
+  }
+
+  &.block-warning {
+    border-color: var(--global-warning-block);
+    background-color: var(--global-warning-block-bg);
+
+    p {
+      color: var(--global-warning-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-warning-block-title);
+    }
+  }
+
+  &.block-danger {
+    border-color: var(--global-danger-block);
+    background-color: var(--global-danger-block-bg);
+
+    p {
+      color: var(--global-danger-block-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--global-danger-block-title);
+    }
   }
 }
 
