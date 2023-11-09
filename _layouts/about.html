@@ -29,9 +29,9 @@ layout: default
               alt=page.profile.image
               cache_bust=true -%}
             {% endif -%}
-            {%- if page.profile.more_info %}
-            <div class="more-info">
-              {{ page.profile.more_info }}
+            {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
             </div>
             {%- endif %}
           </div>
@@ -43,19 +43,19 @@ layout: default
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest Posts</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2>Selected Publications <a href="{{ '/publications/' | relative_url }}" style="font-size: 1.4rem;">[view all]</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
@@ -72,6 +72,8 @@ layout: default
 
             </div>
           {%- endif %}
+          
+          
         </article>
 
 </div>
