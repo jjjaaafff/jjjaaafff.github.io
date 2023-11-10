@@ -1,35 +1,35 @@
 ---
 ---
 
-@misc{liu2023rethinking,
-  abbr={ARR},
-  bibtex_show={true},
-  title={Rethinking Tabular Data understanding of Large Language Models},
-  abstract = {Coming soon},
-  author={Tianyang Liu and Fei Wang and Muhao Chen},
-  journal={Coming soon},
-  year={2023},
-  selected={true}
-}
 
-@misc{liu2023repobench,
-  abbr={preprint},
-  bibtex_show={true},
-  author = {Tianyang Liu and Canwen Xu and Julian McAuley},
-  title = {RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems},
-  abstract = {Large Language Models (LLMs) have greatly advanced code auto-completion systems, with a potential for substantial productivity enhancements for developers. However, current benchmarks mainly focus on single-file tasks, leaving an assessment gap for more complex, real-world, multi-file programming scenarios. To fill this gap, we introduce RepoBench, a new benchmark specifically designed for evaluating repository-level code auto-completion systems. RepoBench consists of three interconnected evaluation tasks: RepoBench-R (Retrieval), RepoBench-C (Code Completion), and RepoBench-P (Pipeline). Each task respectively measures the system's ability to retrieve the most relevant code snippets from other files as cross-file context, predict the next line of code with cross-file and in-file context, and handle complex tasks that require a combination of both retrieval and next-line prediction. RepoBench aims to facilitate a more complete comparison of performance and encouraging continuous improvement in auto-completion systems. RepoBench is publicly available at https://github.com/leolty/RepoBench},
-  year = {2023},
-  arxiv = {2306.03091},
-  journal={arXiv preprint},
-  code = {https://github.com/leolty/RepoBench},
+
+
+@misc{jiang2023multi,
+  abbr={MICCAI},
+  title={Multi-scale Cross-restoration Framework for Electrocardiogram Anomaly Detection},
+  author={Jiang, Aofan and Huang, Chaoqin and Cao, Qing and Wu, Shuang and Zeng, Zi and Chen, Kang and Zhang, Ya and Wang, Yanfeng},
+  abstract = {Electrocardiogram (ECG) is a widely used diagnostic tool for detecting heart conditions. Rare cardiac diseases may be underdiagnosed using traditional ECG analysis, considering that no training dataset can exhaust all possible cardiac disorders. This paper proposes using anomaly detection to identify any unhealthy status, with normal ECGs solely for training. However, detecting anomalies in ECG can be challenging due to significant inter-individual differences and anomalies present in both global rhythm and local morphology. To address this challenge, this paper introduces a novel multi-scale cross-restoration framework for ECG anomaly detection and localization that considers both local and global ECG characteristics. The proposed framework employs a two-branch autoencoder to facilitate multi-scale feature learning through a masking and restoration process, with one branch focusing on global features from the entire ECG and the other on local features from heartbeat-level details, mimicking the diagnostic process of cardiologists. Anomalies are identified by their high restoration errors. To evaluate the performance on a large number of individuals, this paper introduces a new challenging benchmark with signal point-level ground truths annotated by experienced cardiologists. The proposed method demonstrates state-of-the-art performance on this benchmark and two other well-known ECG datasets. The benchmark dataset and source code are available at: https://github.com/MediaBrain-SJTU/ECGAD},
+  pages={87--97},
+  year={2023},
+  journal={MICCAI <strong style="color:#cc3333">(Early Accept)</strong>},
+  code = {https://github.com/MediaBrain-SJTU/ECGAD},
   selected = {true}
 }
 
 
+@article{huang2023multi,
+  abbr={VAND Competition},
+  title={Multi-Scale Memory Comparison for Zero-/Few-Shot Anomaly Detection},
+  author={Huang, Chaoqin* and Jiang, Aofan* and Zhang, Ya and Wang, Yanfeng},
+  journal={VAND@CVPR23},
+  year={2023},
+  selected = {true},
+  abstract={Anomaly detection has gained considerable attention due to its broad range of applications, particularly in industrial defect detection. To address the challenges of data collection, researchers have introduced zero-/few-shot anomaly detection techniques that require minimal normal images for each category. However, complex industrial scenarios often involve multiple objects, presenting a significant challenge. In light of this, we propose a straightforward yet powerful multi-scale memory comparison framework for zero-/few-shot anomaly detection. Our approach employs a global memory bank to capture features across the entire image, while an individual memory bank focuses on simplified scenes containing a single object. The efficacy of our method is validated by its remarkable achievement of 4th place in the zero-shot track and 2nd place in the few-shot track of the Visual Anomaly and Novelty Detection (VAND) competition.}
+}
 
-@inproceedings{huang2022registration,
+
+@article{huang2022registration,
   abbr={ECCV},
-  bibtex_show={false},
   title={Registration based few-shot anomaly detection},
   author={Huang, Chaoqin and Guan, Haoyan and Jiang, Aofan and Zhang, Ya and Spratling, Michael and Wang, Yan-Feng},
   journal={ECCV <strong style="color:#cc3333">(Oral)</strong>},
@@ -45,7 +45,6 @@
 
 @inproceedings{cao2022oodhdr,
   abbr={AAAI},
-  bibtex_show={false},
   author={Cao, Linfeng and Jiang, Aofan and Li, Wei and Wu, Huaying and Ye, Nanyang},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   title={OoDHDR-Codec: Out-of-Distribution Generalization for HDR Image Compression},
