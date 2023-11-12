@@ -274,8 +274,8 @@ display_categories: # ['blockquotes'] # these categories will be displayed on th
 
 scholar:
 
-  last_name: [Liu]
-  first_name: [Tianyang]
+  last_name: [Jiang]
+  first_name: [Aofan]
 
   style: apa
   locale: en
