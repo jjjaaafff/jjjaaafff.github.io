@@ -96,7 +96,9 @@
 {%- if site.rss_icon -%}
 <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
 {% endif %}
-{%- if site.cv_url -%}
-<a href="{{ site.baseurl }}/assets/pdf/{{ site.cv_url }}" title="CV"><i class="fas fa-file-pdf"></i></a>
-
+{%- if site.resume_en -%}
+<a href="{{ site.baseurl }}/assets/pdf/{{ site.resume_en }}" title="Resume"><i class="fas fa-file-pdf"></i></a>
+{% endif %}
+{%- if site.resume_zh -%}
+<a href="{{ site.baseurl }}/assets/pdf/{{ site.resume_zh }}" title="简历"><i class="fas fa-file-pdf"></i></a>
 {% endif %}
