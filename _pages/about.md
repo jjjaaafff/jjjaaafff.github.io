@@ -18,7 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a Master's student in Information and Communication Engineering at Shanghai Jiao Tong University, mentored by Professor [Ya Zhang](http://mediabrain.sjtu.edu.cn/yazhang/). I earned my Bachelor's degree from the IEEE honored class (Computer Science direction) at SJTU, where I worked with Dr. Linfeng Cao and Prof. Nanyang Ye.
+I'm a Master's student in Information and Communication Engineering at Shanghai Jiao Tong University, mentored by Professor [Ya Zhang](http://mediabrain.sjtu.edu.cn/yazhang/). 
+
+
+I earned my Bachelor's degree from the IEEE honored class (Computer Science direction) at SJTU, where I worked with Dr. Linfeng Cao and Prof. Nanyang Ye.
 
 <!-- > **I am actively seeking a PhD position in NLP for Fall 2024.** -->
 
