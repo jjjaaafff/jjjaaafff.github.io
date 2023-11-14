@@ -125,7 +125,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name:  # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: random and inconsequential logs
+blog_description: Lecture Notes, Book Notes, Summary
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -266,7 +266,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['MachineLearning', 'CausalInference', 'evaluation', 'foundation']
+display_tags: ['MachineLearning', 'CausalInference', 'AnomalyDetection']
 display_categories: # ['blockquotes'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
